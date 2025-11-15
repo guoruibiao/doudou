@@ -65,6 +65,8 @@ cp .env.example .env
 
 ## 运行程序
 
+大语言模型如果是本地部署，则需要在.env中设置好LLM_HOST；本地部署可以使用ollama进行部署。
+
 ```bash
 python main.py
 ```
